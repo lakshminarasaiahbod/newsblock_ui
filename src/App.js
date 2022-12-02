@@ -10,7 +10,7 @@ import axios from 'axios';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 
-axios.defaults.baseURL = 'http://localhost:8080/';
+axios.defaults.baseURL = 'http://ec2-35-91-145-26.us-west-2.compute.amazonaws.com:8080/';
 
 function App() {
   return (
