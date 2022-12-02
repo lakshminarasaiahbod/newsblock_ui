@@ -1,0 +1,21 @@
+.loader {
+  width: 100%;
+  min-height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sourcelink {
+  float: right;
+  font-size: 20px;
+  color: #0076ff;
+}
+
+.catHighlight {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: rgb(14, 174, 174);
+  width: fit-content;
+}

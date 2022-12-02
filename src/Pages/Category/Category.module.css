@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  padding: 64px 64px;
+  margin: auto;
+  column-gap: 32px;
+  row-gap: 40px;
+}
+
+.card {
+  min-width: 320px;
+  max-width: none;
+  flex: 0.33;
+}
+
+.loader {
+  width: 100%;
+  min-height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

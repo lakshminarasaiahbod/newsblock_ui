@@ -1,0 +1,128 @@
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerpage {
+  width: 600px;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+}
+
+.dropdown {
+  flex-basis: 50%;
+}
+.control {
+  flex: 1
+}
+.dropbutton {
+  background-color: #c8c8c8 ;
+}
+.loginForm {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.loginForm input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.loginForm button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0076ff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin:10px 0;
+  border-radius: 4px;
+}
+
+.error {
+  margin: 8px 0;
+  color: red;
+  font-size: 16px;
+}
+.form .register-form {
+  display: none;
+}
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 96px;
+}
+
+.home-container .upload,
+.home-container .seeData,
+.home-page .logout {
+  padding: 16px 24px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-container .upload {
+  background-color: #0076ff;
+}
+
+.home-container .seeData {
+  background-color: #ff3366;
+}
+
+.logout {
+  color: #333 !important;
+  font-weight: 600 !important;
+}
+
+.top-header {
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+}
+

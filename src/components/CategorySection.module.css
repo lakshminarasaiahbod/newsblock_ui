@@ -1,0 +1,19 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  column-gap: 40px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 64px;
+}
+
+.view {
+  font-size: 18px;
+  line-height: 24px;
+  color: #3197d6;
+}
